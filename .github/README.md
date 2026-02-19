@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-networkmonitor`](https://www.npmjs.com/package/@aws-sdk/client-networkmonitor/v/3.650.0).
+[`@aws-sdk/client-networkmonitor`](https://www.npmjs.com/package/@aws-sdk/client-networkmonitor/v/3.651.1).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.650.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.651.1/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Tk4+So2apUAZnBBbSkF/anayHH5nW6Zl4BnvzjN+yr6aQmHuREz9YDHE/nuGATwT
+sha384-BDbjIunFl0d2l3ACcRi3K8pLySTuVmYixAvu7zLt2w1b7PGbReQLtJRR/o2QTv/6
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-networkmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.650.0/index.min.mjs"
+            "@aws-sdk/client-networkmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.651.1/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.650.0/index.min.mjs": "sha384-Tk4+So2apUAZnBBbSkF/anayHH5nW6Zl4BnvzjN+yr6aQmHuREz9YDHE/nuGATwT"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.651.1/index.min.mjs": "sha384-BDbjIunFl0d2l3ACcRi3K8pLySTuVmYixAvu7zLt2w1b7PGbReQLtJRR/o2QTv/6"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-networkmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.650.0/index.min.mjs"
+                        "@aws-sdk/client-networkmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.651.1/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.650.0/index.min.mjs": "sha384-Tk4+So2apUAZnBBbSkF/anayHH5nW6Zl4BnvzjN+yr6aQmHuREz9YDHE/nuGATwT"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmonitor@3.651.1/index.min.mjs": "sha384-BDbjIunFl0d2l3ACcRi3K8pLySTuVmYixAvu7zLt2w1b7PGbReQLtJRR/o2QTv/6"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.650.0`)
+* Always pin to a specific version (`@3.651.1`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-networkmonitor/blob/refs/tags/3.650.0/LICENSE
+https://github.com/cloud-sdk-builds/client-networkmonitor/blob/refs/tags/3.651.1/LICENSE
 ```
 
 ---
